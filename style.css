@@ -57,6 +57,9 @@ button {
     color: white;
 }
 
+.one button{
+    margin-top: 10px;
+}
 .two {
     gap: 30px;
     justify-content: center;
