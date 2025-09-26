@@ -9,11 +9,14 @@ body {
     flex-direction: column;
 }
 
-.header {
-    display: flex;
+.header, .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 100px;
+}
+
+.header, .one {
     background-color: #004953;
-    justify-content: space-between;
-    padding: 10px 100px;
 }
 
 ul {
@@ -23,15 +26,33 @@ ul {
     margin: 0;
 }
 
+.logo, .main-text {
+    color: #F9FAF8;    
+}
+
+a, .secondary-text {
+    color: #E9FAF8;
+    font-size: 18px;
+}
+
 .logo{
-    color: #F9FAF8;
-    font-weight: 600;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 a {
     text-decoration: none;
     color:lightgray;
     margin-right: 10px;
-    font-size: 12px;
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-color: #3882F6;
+    color: white;
 }
